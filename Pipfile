@@ -1,0 +1,12 @@
+[[source]]
+name = "starter-kit-image-python"
+url = "https://"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+
+[requires]
+python_version = "3.8"
