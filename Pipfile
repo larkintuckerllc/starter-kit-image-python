@@ -1,6 +1,6 @@
 [[source]]
 name = "starter-kit-image-python"
-url = "https://"
+url = "https://github.com/larkintuckerllc/starter-kit-image-python"
 verify_ssl = true
 
 [dev-packages]
