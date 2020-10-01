@@ -1,6 +1,6 @@
 from flask import Flask
 
-from app.mypackage.mymodule import myfunction
+from app.mypackage import mymodule
 
 app = Flask(__name__)
 
@@ -8,6 +8,5 @@ app = Flask(__name__)
 
 @app.route('/<path:path>')
 def hello_world(path):
-    response = myfunction()
+    response = mymodule.myfunction()
     return response
-
